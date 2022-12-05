@@ -11,9 +11,7 @@ export class AppComponent implements OnInit {
   title = 'client';
   users: any; 
 
-  constructor(private http: HttpClient) {
-
-  }
+  constructor(private http: HttpClient) { }
 
   // used to handle any additional initialization tasks after constructor
   ngOnInit(): void {
