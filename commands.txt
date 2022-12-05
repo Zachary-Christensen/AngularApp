@@ -1,0 +1,6 @@
+from https://www.nuget.org/packages/dotnet-ef#versions-body-tab
+dotnet tool install --global dotnet-ef --version 7.0.0
+
+dotnet ef migrations add InitialCreate -o Data/Migrations
+to undo this use
+dotnet ef migrations remove
